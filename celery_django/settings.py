@@ -128,7 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CELERY
 
-CELERY_BROKER_URL = 'redis://:p4d5cc11c9650e7603abad2a7d3e8a4607c1303aad6f1a02bf57d94897890f72a@ec2-44-198-255-246.compute-1.amazonaws.com:24750'
+CELERY_BROKER_URL = 'redis://127.0.0.1/0'
 
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
