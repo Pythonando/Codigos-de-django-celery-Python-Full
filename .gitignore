@@ -1,0 +1,3 @@
+/venv
+venv/
+bd.sqlite3
